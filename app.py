@@ -1,6 +1,7 @@
 import os
 import json
 import random
+import tempfile
 from flask import Flask, render_template, request, redirect, url_for, session, jsonify
 import requests
 import urllib3
@@ -15,7 +16,7 @@ with open('questions.json', 'r') as f:
     QUESTIONS = json.load(f)
 
 # Helper for Leaderboard
-LEADERBOARD_FILE = 'leaderboard.json'
+LEADERBOARD_FILE = os.path.join(tempfile.gettempdir(), 'leaderboard.json')
 def get_leaderboard():
     if not os.path.exists(LEADERBOARD_FILE):
         return []
