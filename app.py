@@ -100,7 +100,10 @@ def exam():
     for q in exam_questions:
         random.shuffle(q['options'])
     
-    return render_template('exam.html', questions=exam_questions, student_name=f"{session['first_name']} {session['surname']}")
+    # Time limit: 1 minute per question
+    time_limit_minutes = len(exam_questions)
+    
+    return render_template('exam.html', questions=exam_questions, student_name=f"{session['first_name']} {session['surname']}", time_limit=time_limit_minutes)
 
 @app.route('/record_warning', methods=['POST'])
 def record_warning():
