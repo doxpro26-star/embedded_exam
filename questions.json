@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "branch": "ENTC",
+    "question": "Which of the following is a universal logic gate?",
+    "options": ["AND", "OR", "NAND", "NOT"],
+    "answer": "NAND"
+  },
+  {
+    "id": 2,
+    "branch": "ENTC",
+    "question": "In communication systems, what does AM stand for?",
+    "options": ["Amplitude Modulation", "Audio Modulation", "Advanced Modulation", "Antenna Matching"],
+    "answer": "Amplitude Modulation"
+  },
+  {
+    "id": 3,
+    "branch": "EXTC",
+    "question": "What is the primary function of a multiplexer?",
+    "options": ["Convert analog to digital", "Select one of many input signals", "Amplify signals", "Store data"],
+    "answer": "Select one of many input signals"
+  },
+  {
+    "id": 4,
+    "branch": "EXTC",
+    "question": "Which encoding technique is commonly used in GSM?",
+    "options": ["CDMA", "TDMA", "FDMA", "All of the above"],
+    "answer": "TDMA"
+  },
+  {
+    "id": 5,
+    "branch": "EE",
+    "question": "Which device converts mechanical energy into electrical energy?",
+    "options": ["Motor", "Transformer", "Generator", "Inverter"],
+    "answer": "Generator"
+  },
+  {
+    "id": 6,
+    "branch": "EE",
+    "question": "What is the unit of electrical resistance?",
+    "options": ["Volt", "Ampere", "Ohm", "Watt"],
+    "answer": "Ohm"
+  }
+]

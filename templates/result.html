@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoxPro Exam Portal - Results</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --yellow: #FCC206;
+            --black: #1A1A1A;
+            --white: #FFFFFF;
+        }
+        body { 
+            background: radial-gradient(ellipse at 50% 0%, #2a2a3e 0%, #1a1a1a 50%, #0a0a0a 100%);
+            color: var(--white);
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem 1rem;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card { 
+            background: rgba(252, 194, 6, 0.05);
+            border: 1px solid rgba(252, 194, 6, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 12px; 
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            text-align: center;
+        }
+        .title {
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            margin-top: 0;
+            color: var(--white);
+        }
+        .score-display {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--yellow);
+            margin: 1.5rem 0;
+            text-shadow: 0 0 20px rgba(252, 194, 6, 0.5);
+        }
+        .alert-warning {
+            background: rgba(252, 194, 6, 0.1);
+            border: 1px solid rgba(252, 194, 6, 0.5);
+            color: #ffdd44;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+        }
+        .btn-outline {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            border: 2px solid rgba(252, 194, 6, 0.5);
+            border-radius: 50px;
+            background: rgba(255,255,255,0.05);
+            color: var(--yellow);
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .btn-outline:hover {
+            background: rgba(252, 194, 6, 0.1);
+            border-color: var(--yellow);
+            transform: translateY(-2px);
+        }
+        
+        /* Leaderboard Styles */
+        .leaderboard-card {
+            text-align: left;
+        }
+        .leaderboard-card .title {
+            color: var(--yellow);
+            text-align: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 1rem;
+        }
+        .leaderboard-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .leaderboard-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            transition: background 0.2s;
+        }
+        .leaderboard-item:hover {
+            background: rgba(255,255,255,0.05);
+        }
+        .leaderboard-item:last-child {
+            border-bottom: none;
+        }
+        .rank {
+            font-weight: 700;
+            color: rgba(255,255,255,0.5);
+            width: 30px;
+        }
+        .student-info {
+            flex-grow: 1;
+        }
+        .student-name {
+            font-weight: 600;
+            color: var(--white);
+            display: block;
+        }
+        .student-branch {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.6);
+        }
+        .student-score {
+            font-weight: 700;
+            color: var(--yellow);
+            font-size: 1.2rem;
+        }
+        
+        /* Highlight current student in leaderboard */
+        .highlight-student {
+            background: rgba(252, 194, 6, 0.1) !important;
+            border-radius: 8px;
+            border: 1px solid rgba(252, 194, 6, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Results Card -->
+        <div class="card">
+            <h2 class="title">Exam Results</h2>
+            <h4>{{ result.name }}</h4>
+            
+            <div class="score-display">
+                {{ result.score }} / {{ result.total }}
+            </div>
+            
+            {% if result.warnings > 0 %}
+            <div class="alert-warning">
+                Anti-cheat warnings recorded: <strong>{{ result.warnings }}</strong>
+            </div>
+            {% endif %}
+            
+            <a href="/" class="btn-outline">Take Another Exam</a>
+        </div>
+        
+        <!-- Leaderboard Card -->
+        {% if leaderboard and leaderboard|length > 0 %}
+        <div class="card leaderboard-card">
+            <h3 class="title">Top Performers</h3>
+            <ul class="leaderboard-list">
+                {% for entry in leaderboard %}
+                <li class="leaderboard-item {% if entry.name == result.name and entry.score == result.score %}highlight-student{% endif %}">
+                    <span class="rank">#{{ loop.index }}</span>
+                    <div class="student-info">
+                        <span class="student-name">{{ entry.name }}</span>
+                        <span class="student-branch">{{ entry.branch }}</span>
+                    </div>
+                    <span class="student-score">{{ entry.score }} / {{ entry.total }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
