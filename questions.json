@@ -1,44 +1,1202 @@
 [
   {
     "id": 1,
-    "branch": "ENTC",
-    "question": "Which of the following is a universal logic gate?",
-    "options": ["AND", "OR", "NAND", "NOT"],
-    "answer": "NAND"
+    "branch": "Electronics",
+    "question": "Which of the following statements accurately distinguishes between potential difference and its unit?",
+    "options": [
+      "Potential difference is a unit, and Volt is the parameter.",
+      "Potential difference is the physical parameter, and Volt is its standard unit.",
+      "Charge and potential difference are measured in the same unit.",
+      "Voltage is a parameter measured in Amperes."
+    ],
+    "answer": "Potential difference is the physical parameter, and Volt is its standard unit."
   },
   {
     "id": 2,
-    "branch": "ENTC",
-    "question": "In communication systems, what does AM stand for?",
-    "options": ["Amplitude Modulation", "Audio Modulation", "Advanced Modulation", "Antenna Matching"],
-    "answer": "Amplitude Modulation"
+    "branch": "Electronics",
+    "question": "How is electric current conceptually defined in your notes?",
+    "options": [
+      "The restriction of electron movement.",
+      "The potential difference built across two independent items.",
+      "The fundamental flow of electrons, measured in the unit of Ampere.",
+      "The static charge storage capacity of a lithium battery."
+    ],
+    "answer": "The fundamental flow of electrons, measured in the unit of Ampere."
   },
   {
     "id": 3,
-    "branch": "EXTC",
-    "question": "What is the primary function of a multiplexer?",
-    "options": ["Convert analog to digital", "Select one of many input signals", "Amplify signals", "Store data"],
-    "answer": "Select one of many input signals"
+    "branch": "Electronics",
+    "question": "If a 4-band resistor has the color bands Red (R), Red (R), Brown (B), and Gold (G), what is its nominal resistance value and tolerance based on your color-coding notes?",
+    "options": [
+      "22 Ohm +/- 10%",
+      "220 Ohm +/- 5%",
+      "2.2 kOhm +/- 5%",
+      "220 Ohm +/- 1%"
+    ],
+    "answer": "220 Ohm +/- 5%"
   },
   {
     "id": 4,
-    "branch": "EXTC",
-    "question": "Which encoding technique is commonly used in GSM?",
-    "options": ["CDMA", "TDMA", "FDMA", "All of the above"],
-    "answer": "TDMA"
+    "branch": "Electronics",
+    "question": "For a nominal resistor value of 220 Ohm with a +/- 5% tolerance, what is the acceptable range of its actual resistance?",
+    "options": [
+      "215 Ohm to 225 Ohm",
+      "200 Ohm to 240 Ohm",
+      "209 Ohm to 231 Ohm",
+      "210 Ohm to 230 Ohm"
+    ],
+    "answer": "209 Ohm to 231 Ohm"
   },
   {
     "id": 5,
-    "branch": "EE",
-    "question": "Which device converts mechanical energy into electrical energy?",
-    "options": ["Motor", "Transformer", "Generator", "Inverter"],
-    "answer": "Generator"
+    "branch": "Electronics",
+    "question": "Based on the human-analogy framework given in the notes, if a \"Resistor\" represents a person (\"Insan\"), what does \"Resistance\" represent?",
+    "options": [
+      "Speed",
+      "Humanity (\"Insaniyat\")",
+      "Distance",
+      "Voltage Drop"
+    ],
+    "answer": "Humanity (\"Insaniyat\")"
   },
   {
     "id": 6,
-    "branch": "EE",
-    "question": "What is the unit of electrical resistance?",
-    "options": ["Volt", "Ampere", "Ohm", "Watt"],
-    "answer": "Ohm"
+    "branch": "Electronics",
+    "question": "Who is the unit of electrical resistance named after, according to your historical notes?",
+    "options": [
+      "Nikola Tesla",
+      "Georg Simon Ohm",
+      "Alessandro Volta",
+      "Andre-Marie Ampere"
+    ],
+    "answer": "Georg Simon Ohm"
+  },
+  {
+    "id": 7,
+    "branch": "Electronics",
+    "question": "If a straight, flat path from point A to point B represents a low resistance path, what does a long, tightly alternating zigzag line between point A and point B represent?",
+    "options": [
+      "An ideal voltage source",
+      "A shortcut path for current",
+      "An elongated path that slows down or resists the flow of current",
+      "A short-circuit link"
+    ],
+    "answer": "An elongated path that slows down or resists the flow of current"
+  },
+  {
+    "id": 8,
+    "branch": "Electronics",
+    "question": "According to the LED Color Voltage table, which color LED generally exhibits the highest typical operating forward voltage range (3.0 V -> 3.4 V)?",
+    "options": [
+      "Red and Yellow",
+      "Blue and White",
+      "Green and Red",
+      "Yellow only"
+    ],
+    "answer": "Blue and White"
+  },
+  {
+    "id": 9,
+    "branch": "Electronics",
+    "question": "What is the typical operating current noted for Red, Green, Blue, and White LEDs to glow properly?",
+    "options": [
+      "0 mA",
+      "1.5 mA",
+      "20 mA",
+      "2.6 A"
+    ],
+    "answer": "20 mA"
+  },
+  {
+    "id": 10,
+    "branch": "Electronics",
+    "question": "A circuit designer wants to hook up a Yellow LED to a power source. According to your notes, what is its forward voltage and recommended current?",
+    "options": [
+      "1.8 V -> 2.4 V at 15 mA - 20 mA",
+      "3.0 V -> 3.4 V at 20 mA",
+      "1.8 V -> 2.2 V at 0 mA",
+      "2.0 V -> 3.4 V at 20 mA"
+    ],
+    "answer": "1.8 V -> 2.4 V at 15 mA - 20 mA"
+  },
+  {
+    "id": 11,
+    "branch": "Electronics",
+    "question": "In the circuit example where the source voltage V = 7.4 V and a Yellow LED (2 V) is used, how much voltage must be safely dropped across the series current-limiting resistor (R)?",
+    "options": [
+      "7.4 V",
+      "2.0 V",
+      "5.4 V",
+      "9.4 V"
+    ],
+    "answer": "5.4 V"
+  },
+  {
+    "id": 12,
+    "branch": "Electronics",
+    "question": "Using the equation 5.4 V = 2.6R derived in your circuit notebook section, what is the final calculated value of the current-limiting resistor (R)?",
+    "options": [
+      "0.76 Ohm",
+      "2.07 Ohm",
+      "220 Ohm",
+      "1.2 kOhm"
+    ],
+    "answer": "2.07 Ohm"
+  },
+  {
+    "id": 13,
+    "branch": "Electronics",
+    "question": "When selecting a current-limiting resistor for an LED circuit, if you choose a slightly lower resistance value (e.g., 330 Ohm instead of a nominal 370 Ohm), what is the expected operational trade-off?",
+    "options": [
+      "Maximum LED lifespan, minimum brightness.",
+      "Maximum LED brightness, minimized lifespan.",
+      "The LED will fail to turn on completely.",
+      "The circuit will draw exactly 0 mA."
+    ],
+    "answer": "Maximum LED brightness, minimized lifespan."
+  },
+  {
+    "id": 14,
+    "branch": "Electronics",
+    "question": "If you instead change the current-limiting resistor to a higher value (e.g., 470 Ohm instead of 370 Ohm), how does it affect the LED?",
+    "options": [
+      "Maximizes the LED lifespan, but yields a lower brightness.",
+      "Causes instant thermal damage to the LED.",
+      "Reduces the operational lifespan of the LED.",
+      "Doubles the forward voltage drop of the LED."
+    ],
+    "answer": "Maximizes the LED lifespan, but yields a lower brightness."
+  },
+  {
+    "id": 15,
+    "branch": "Electronics",
+    "question": "A circuit operates with a supply voltage of 24 V and uses an LED with a forward voltage (Vftg) of 3.2 V. If the target operating current is 20 mA, what is the exact voltage drop required across the resistor?",
+    "options": [
+      "24 V",
+      "3.2 V",
+      "20.8 V",
+      "27.2 V"
+    ],
+    "answer": "20.8 V"
+  },
+  {
+    "id": 16,
+    "branch": "Electronics",
+    "question": "Using the 24 V supply and 3.2 V LED circuit parameters (I = 20 mA), what is the final value of the current-limiting resistor?",
+    "options": [
+      "160 Ohm",
+      "1200 Ohm (1.2 kOhm)",
+      "220 Ohm",
+      "470 Ohm"
+    ],
+    "answer": "1200 Ohm (1.2 kOhm)"
+  },
+  {
+    "id": 17,
+    "branch": "Electronics",
+    "question": "Which chemical compound combination is responsible for producing Red, Yellow, and Orange light in standard legacy LEDs?",
+    "options": [
+      "Gallium Nitride (GaN)",
+      "Aluminium Gallium Indium Phosphide (AlGaInP)",
+      "Pure Silicon",
+      "Indium Gallium Nitride"
+    ],
+    "answer": "Aluminium Gallium Indium Phosphide (AlGaInP)"
+  },
+  {
+    "id": 18,
+    "branch": "Electronics",
+    "question": "According to your historical milestones for semiconductor developments, in what year was the Gallium Nitride (GaN) Blue LED invented?",
+    "options": [
+      "1950",
+      "1970",
+      "1993",
+      "2026"
+    ],
+    "answer": "1993"
+  },
+  {
+    "id": 19,
+    "branch": "Electronics",
+    "question": "Green LEDs are primarily synthesized utilizing which semiconductor material substrate (established in 1950)?",
+    "options": [
+      "Gallium Nitride",
+      "Gallium Phosphide (GaP)",
+      "Indium Gallium Nitride",
+      "Aluminium Oxide"
+    ],
+    "answer": "Gallium Phosphide (GaP)"
+  },
+  {
+    "id": 20,
+    "branch": "Electronics",
+    "question": "What complex multi-element material composition is listed in your notes for creating White LEDs (dated around 1970)?",
+    "options": [
+      "Gallium Phosphide",
+      "Indium Gallium Nitride + Phosphide",
+      "Aluminium Arsenide",
+      "Pure Carbon-Silicon matrix"
+    ],
+    "answer": "Indium Gallium Nitride + Phosphide"
+  },
+  {
+    "id": 21,
+    "branch": "Electronics",
+    "question": "What component protects the internal die and conductive wire of a standard radial LED encapsulation?",
+    "options": [
+      "Aluminum base",
+      "Epoxy Resin dome",
+      "Zener clamp",
+      "Ceramic substrate"
+    ],
+    "answer": "Epoxy Resin dome"
+  },
+  {
+    "id": 22,
+    "branch": "Electronics",
+    "question": "Which of the following fundamental properties describes a standard solid-state Diode?",
+    "options": [
+      "It is a three-terminal bi-directional switch.",
+      "It has two terminals (Anode & Cathode) and allows current to flow unidirectionally.",
+      "It lacks a depletion region entirely.",
+      "It converts DC directly to AC without power losses."
+    ],
+    "answer": "It has two terminals (Anode & Cathode) and allows current to flow unidirectionally."
+  },
+  {
+    "id": 23,
+    "branch": "Electronics",
+    "question": "Match the electronic symbol variant to its correct operational component type: A basic triangle with a vertical line blocking the forward tip represents a [____]. A triangle with a vertical line that has angled flags turning outward on both ends represents a [____].",
+    "options": [
+      "Photodiode; Zener Diode",
+      "Standard Diode; Zener Diode",
+      "NOT Gate; Buffer",
+      "LED; Photodiode"
+    ],
+    "answer": "Standard Diode; Zener Diode"
+  },
+  {
+    "id": 24,
+    "branch": "Electronics",
+    "question": "What is the explicit operational purpose of a Photodiode as described in your study notes?",
+    "options": [
+      "To emit high-intensity visible light when current passes backward.",
+      "To receive and detect Infrared (IR) light signals.",
+      "To act as a logic inverter gate in digital circuits.",
+      "To step up DC voltage lines."
+    ],
+    "answer": "To receive and detect Infrared (IR) light signals."
+  },
+  {
+    "id": 25,
+    "branch": "Electronics",
+    "question": "Under what specific operational condition does a Zener diode fundamentally operate to manage reverse current?",
+    "options": [
+      "Only during forward-bias saturation.",
+      "Under Reverse Current condition to regulate voltage thresholds.",
+      "When fully isolated from ground.",
+      "When exposed to ambient ultraviolet light."
+    ],
+    "answer": "Under Reverse Current condition to regulate voltage thresholds."
+  },
+  {
+    "id": 26,
+    "branch": "Electronics",
+    "question": "What logic gate element shares a highly similar triangular schematic layout with a standard diode symbol but includes an inversion bubble at its output tip?",
+    "options": [
+      "Buffer",
+      "NOT Gate",
+      "AND Gate",
+      "OR Gate"
+    ],
+    "answer": "NOT Gate"
+  },
+  {
+    "id": 27,
+    "branch": "Electronics",
+    "question": "When working with DC Voltage Regulators, what primary task does a \"Boost\" configuration accomplish?",
+    "options": [
+      "It stabilizes a fluctuating AC voltage line down to zero.",
+      "It steps up a lower input DC voltage to a higher regulated output level.",
+      "It filters high-frequency noise directly to ground.",
+      "It acts as a safety fuse during current spikes."
+    ],
+    "answer": "It steps up a lower input DC voltage to a higher regulated output level."
+  },
+  {
+    "id": 28,
+    "branch": "Electronics",
+    "question": "In standard linear three-terminal voltage regulator identification codes like [7905], what do the first two digits ('79') signify regarding the output voltage polarities?",
+    "options": [
+      "Positive Output Voltage (+)",
+      "Negative Output Voltage (-)",
+      "Alternating Current output (AC)",
+      "High-frequency pulse train"
+    ],
+    "answer": "Negative Output Voltage (-)"
+  },
+  {
+    "id": 29,
+    "branch": "Electronics",
+    "question": "For the voltage regulator identification code [7805], what is the exact expected output voltage value?",
+    "options": [
+      "+78 V",
+      "-5 V",
+      "+5 V",
+      "0 V (Ground)"
+    ],
+    "answer": "+5 V"
+  },
+  {
+    "id": 30,
+    "branch": "Electronics",
+    "question": "What structural thermal management concept is highlighted in your notes to prevent internal burnout of linear voltage regulators handling heavy power drops?",
+    "options": [
+      "Common Ground loop",
+      "Heat definition/Dissipation (Heatsink integration)",
+      "Multi-power phase shifting",
+      "Input decoupling capacitance"
+    ],
+    "answer": "Heat definition/Dissipation (Heatsink integration)"
+  },
+  {
+    "id": 31,
+    "branch": "Electronics",
+    "question": "What is the absolute internal reference voltage (Vref) constant used for calculations in an LM317 adjustable regulator circuit?",
+    "options": [
+      "5.0 V",
+      "1.25 V",
+      "3.3 V",
+      "12 V"
+    ],
+    "answer": "1.25 V"
+  },
+  {
+    "id": 32,
+    "branch": "Electronics",
+    "question": "What is the fundamental formula to calculate the output voltage (Vout) of an LM317 regulator based on feedback resistors R1 and R2?",
+    "options": [
+      "Vout = 1.25 * (1 + R1/R2)",
+      "Vout = 1.25 * (1 + R2/R1)",
+      "Vout = I * R",
+      "Vout = R2/R1"
+    ],
+    "answer": "Vout = 1.25 * (1 + R2/R1)"
+  },
+  {
+    "id": 33,
+    "branch": "Electronics",
+    "question": "If you need to rearrange the LM317 formula to solve directly for the target adjustment resistor value (R2), which equation is mathematically correct?",
+    "options": [
+      "R2 = R1 * ((Vout / 1.25) - 1)",
+      "R2 = (1.25 / (Vout - 1)) * R1",
+      "R2 = R1 + 1.25 - Vout",
+      "R2 = (R1 * 1.25) / Vout"
+    ],
+    "answer": "R2 = R1 * ((Vout / 1.25) - 1)"
+  },
+  {
+    "id": 34,
+    "branch": "Electronics",
+    "question": "Given a fixed reference resistor R1 = 220 Ohm and a target regulated output voltage Vout = 3.3 V, evaluate the step ((3.3 / 1.25) - 1) to find its fractional decimal value:",
+    "options": [
+      "2.64",
+      "1.64",
+      "0.64",
+      "1.25"
+    ],
+    "answer": "1.64"
+  },
+  {
+    "id": 35,
+    "branch": "Electronics",
+    "question": "Complete the design problem from your circuit digest notes: With R1 = 220 Ohm and a desired Vout = 3.3 V, calculate the required resistance for the adjustable resistor R2 (220 * 1.64):",
+    "options": [
+      "120 Ohm",
+      "220 Ohm",
+      "360.8 Ohm (approx. 360 Ohm)",
+      "1.2 kOhm"
+    ],
+    "answer": "360.8 Ohm (approx. 360 Ohm)"
+  },
+  {
+    "id": 36,
+    "branch": "Electronics",
+    "question": "In your human-interaction framework, what primary behavior distinguishes a \"Switch\" from a \"Button\"?",
+    "options": [
+      "A switch can only pass negative currents.",
+      "A switch maintains its changed state after interaction until it is toggled again, whereas a button resets.",
+      "A button holds its state permanently until a system power cycle occurs.",
+      "A switch lacks physical contacts."
+    ],
+    "answer": "A switch maintains its changed state after interaction until it is toggled again, whereas a button resets."
+  },
+  {
+    "id": 37,
+    "branch": "Electronics",
+    "question": "What happens to a standard momentary \"Button\" when human interaction is removed (\"HI gone\")?",
+    "options": [
+      "It latches in the closed position indefinitely.",
+      "It automatically resets back to its normal, fixed resting state.",
+      "It shifts its internal resistance value to infinity.",
+      "It begins generating heat pulses."
+    ],
+    "answer": "It automatically resets back to its normal, fixed resting state."
+  },
+  {
+    "id": 38,
+    "branch": "Electronics",
+    "question": "According to the energy calculation log comparing appliance configurations, how many total power units does a 5-Star rated system consume over a 90-day operational period?",
+    "options": [
+      "27 units",
+      "2160 units",
+      "2430 units",
+      "17280 units"
+    ],
+    "answer": "2160 units"
+  },
+  {
+    "id": 39,
+    "branch": "Electronics",
+    "question": "If a 3-Star rated system consumes 27 units per day, what is its total power unit accumulation over a 90-day period?",
+    "options": [
+      "2160 units",
+      "2430 units",
+      "19440 units",
+      "2700 units"
+    ],
+    "answer": "2430 units"
+  },
+  {
+    "id": 40,
+    "branch": "Electronics",
+    "question": "If the structural flat utility rate is calculated as Rs. 8 per unit, what is the financial cost comparison between running the 5-Star system (2160 units) versus the 3-Star system (2430 units)?",
+    "options": [
+      "Rs. 17,280 vs Rs. 19,440",
+      "Rs. 2,160 vs Rs. 2,430",
+      "Rs. 500 vs Rs. 1,000",
+      "Both cost exactly the same to operate."
+    ],
+    "answer": "Rs. 17,280 vs Rs. 19,440"
+  },
+  {
+    "id": 41,
+    "branch": "Electronics",
+    "question": "In the context of logic gates, what structural addition distinguishes a NOT gate symbol from a buffer symbol?",
+    "options": [
+      "A square box at the input",
+      "An inversion circle (bubble) at the output tip",
+      "A double triangle base",
+      "A parallel ground line"
+    ],
+    "answer": "An inversion circle (bubble) at the output tip"
+  },
+  {
+    "id": 42,
+    "branch": "Electronics",
+    "question": "If an active-high digital signal passes through a NOT gate, what is the output state?",
+    "options": [
+      "High",
+      "Low",
+      "High Impedance",
+      "Alternating"
+    ],
+    "answer": "Low"
+  },
+  {
+    "id": 43,
+    "branch": "Electronics",
+    "question": "Which logic gate outputs a High signal ONLY when all of its inputs are High?",
+    "options": [
+      "OR Gate",
+      "AND Gate",
+      "NOT Gate",
+      "NAND Gate"
+    ],
+    "answer": "AND Gate"
+  },
+  {
+    "id": 44,
+    "branch": "Electronics",
+    "question": "Which logic gate represents the exact inverse operation of an AND gate?",
+    "options": [
+      "NOR Gate",
+      "XOR Gate",
+      "NAND Gate",
+      "XNOR Gate"
+    ],
+    "answer": "NAND Gate"
+  },
+  {
+    "id": 45,
+    "branch": "Electronics",
+    "question": "An OR gate output becomes Low under which specific input condition?",
+    "options": [
+      "At least one input is High",
+      "All inputs are Low",
+      "All inputs are High",
+      "Inputs are mismatched"
+    ],
+    "answer": "All inputs are Low"
+  },
+  {
+    "id": 46,
+    "branch": "Electronics",
+    "question": "The NOR gate is conceptually a combination of which two gates?",
+    "options": [
+      "OR gate followed by a NOT gate",
+      "AND gate followed by a NOT gate",
+      "Two consecutive OR gates",
+      "NAND and XOR gates"
+    ],
+    "answer": "OR gate followed by a NOT gate"
+  },
+  {
+    "id": 47,
+    "branch": "Electronics",
+    "question": "If a logic circuit requires an output to be High whenever at least one input is active, which primary gate should be implemented?",
+    "options": [
+      "AND Gate",
+      "OR Gate",
+      "NOT Gate",
+      "NAND Gate"
+    ],
+    "answer": "OR Gate"
+  },
+  {
+    "id": 48,
+    "branch": "Electronics",
+    "question": "Which digital component serves to purely replicate the input logic state at its output without inverting it?",
+    "options": [
+      "NOT Gate",
+      "Buffer",
+      "Inverter",
+      "Operational Amplifier"
+    ],
+    "answer": "Buffer"
+  },
+  {
+    "id": 49,
+    "branch": "Electronics",
+    "question": "What is the standard operating voltage profile of the Arduino Uno microcontroller board?",
+    "options": [
+      "1.2 V",
+      "3.3 V",
+      "5.0 V",
+      "12.0 V"
+    ],
+    "answer": "5.0 V"
+  },
+  {
+    "id": 50,
+    "branch": "Electronics",
+    "question": "How many total digital I/O pins are directly available on a standard Arduino Uno board?",
+    "options": [
+      "8",
+      "14",
+      "20",
+      "40"
+    ],
+    "answer": "14"
+  },
+  {
+    "id": 51,
+    "branch": "Electronics",
+    "question": "Which microcontroller chip serves as the main processing core on the standard Arduino Uno?",
+    "options": [
+      "ATmega328P",
+      "PIC16F877A",
+      "STM32F103",
+      "ESP32"
+    ],
+    "answer": "ATmega328P"
+  },
+  {
+    "id": 52,
+    "branch": "Electronics",
+    "question": "When interfacing a basic Flame Sensor module to an Arduino Uno, what physical parameter does the sensor primarily detect?",
+    "options": [
+      "High-frequency acoustic vibrations",
+      "Infrared light wavelengths emitted by fire",
+      "Relative atmospheric humidity",
+      "Ultrasonic distance reflection"
+    ],
+    "answer": "Infrared light wavelengths emitted by fire"
+  },
+  {
+    "id": 53,
+    "branch": "Electronics",
+    "question": "If a Flame Sensor module has both an Analog Output (AO) and a Digital Output (DO), what does the Digital Output pin convey?",
+    "options": [
+      "A continuous range of voltage values from 0V to 5V",
+      "A binary logic signal (High/Low) based on a threshold setting",
+      "A pulse-width modulated motor control frequency",
+      "Serial communication data packets"
+    ],
+    "answer": "A binary logic signal (High/Low) based on a threshold setting"
+  },
+  {
+    "id": 54,
+    "branch": "Electronics",
+    "question": "To read a binary status from a Flame Sensor's digital pin on Arduino pin 7, which function should be called in the IDE?",
+    "options": [
+      "analogRead(7);",
+      "digitalRead(7);",
+      "digitalWrite(7, HIGH);",
+      "pulseIn(7);"
+    ],
+    "answer": "digitalRead(7);"
+  },
+  {
+    "id": 55,
+    "branch": "Electronics",
+    "question": "In an Arduino sketch designed for safety monitoring, where should initialization commands like 'pinMode(7, INPUT);' be declared?",
+    "options": [
+      "inside the void loop() function",
+      "inside the void setup() function",
+      "inside a custom interrupt service routine",
+      "anywhere in the global comment section"
+    ],
+    "answer": "inside the void setup() function"
+  },
+  {
+    "id": 56,
+    "branch": "Electronics",
+    "question": "What is the fundamental function of the 'void loop()' block in an Arduino program?",
+    "options": [
+      "It runs exactly once at boot up to clear memory.",
+      "It executes code sequentially and loops infinitely until power is lost.",
+      "It serves to calculate mathematical constants.",
+      "It acts as a structural debugger line."
+    ],
+    "answer": "It executes code sequentially and loops infinitely until power is lost."
+  },
+  {
+    "id": 57,
+    "branch": "Electronics",
+    "question": "When simulating a circuit in Proteus, what does a red square dot next to a wire path visually signify?",
+    "options": [
+      "A dead short-circuit to ground",
+      "A logic High (5V) voltage level",
+      "A logic Low (0V) voltage level",
+      "An unassigned or floating node"
+    ],
+    "answer": "A logic High (5V) voltage level"
+  },
+  {
+    "id": 58,
+    "branch": "Electronics",
+    "question": "What does a blue square dot represent during active interactive simulation in Proteus software?",
+    "options": [
+      "High Voltage AC supply",
+      "Logic Low (0V/Ground) level",
+      "Maximum thermal threshold reached",
+      "Open circuit state"
+    ],
+    "answer": "Logic Low (0V/Ground) level"
+  },
+  {
+    "id": 59,
+    "branch": "Electronics",
+    "question": "If an RC transient circuit is modeled, what parameter defines the time required for a capacitor to charge to approximately 63.2% of its maximum value?",
+    "options": [
+      "Resonant Frequency",
+      "Time Constant (tau = R * C)",
+      "Slew Rate",
+      "Q-factor"
+    ],
+    "answer": "Time Constant (tau = R * C)"
+  },
+  {
+    "id": 60,
+    "branch": "Electronics",
+    "question": "When a constant DC voltage source is connected to an uncharged capacitor in series with a resistor, what is the initial current value at time t = 0?",
+    "options": [
+      "Zero",
+      "Maximum (I = V / R)",
+      "Infinite",
+      "Dependent only on capacitance"
+    ],
+    "answer": "Maximum (I = V / R)"
+  },
+  {
+    "id": 61,
+    "branch": "Electronics",
+    "question": "In steady-state DC circuit analysis, how does an ideal capacitor behave once fully charged?",
+    "options": [
+      "As a short circuit link",
+      "As an open circuit link",
+      "As a variable AC oscillator",
+      "As a non-linear diode resistor"
+    ],
+    "answer": "As an open circuit link"
+  },
+  {
+    "id": 62,
+    "branch": "Electronics",
+    "question": "What is the fundamental SI unit used to quantify capacitance?",
+    "options": [
+      "Henry",
+      "Farad",
+      "Ohm",
+      "Tesla"
+    ],
+    "answer": "Farad"
+  },
+  {
+    "id": 63,
+    "branch": "Electronics",
+    "question": "Which electrical component stores energy primarily in its magnetic field when current passes through it?",
+    "options": [
+      "Capacitor",
+      "Inductor",
+      "Resistor",
+      "Potentiometer"
+    ],
+    "answer": "Inductor"
+  },
+  {
+    "id": 64,
+    "branch": "Electronics",
+    "question": "How does an inductor behave at the exact moment a DC supply switch is closed (t = 0)?",
+    "options": [
+      "It behaves as a direct short circuit.",
+      "It behaves as an open circuit, opposing rapid current changes.",
+      "It exhibits zero resistance.",
+      "It steps down the system voltage immediately."
+    ],
+    "answer": "It behaves as an open circuit, opposing rapid current changes."
+  },
+  {
+    "id": 65,
+    "branch": "Electronics",
+    "question": "What structural part of a through-hole electronic component passes through a printed circuit board (PCB) pad for soldering?",
+    "options": [
+      "The silicon die",
+      "The component lead (wire leg)",
+      "The epoxy dome encapsulation",
+      "The thermal heat spreader tab"
+    ],
+    "answer": "The component lead (wire leg)"
+  },
+  {
+    "id": 66,
+    "branch": "Electronics",
+    "question": "What type of component packaging is designed to be soldered directly onto the surface of a PCB without drilling holes?",
+    "options": [
+      "Through-Hole Technology (THT)",
+      "Surface Mount Technology (SMT / SMD)",
+      "Dual In-line Package (DIP)",
+      "TO-220 Package"
+    ],
+    "answer": "Surface Mount Technology (SMT / SMD)"
+  },
+  {
+    "id": 67,
+    "branch": "Electronics",
+    "question": "What chemical element serves as the primary base semiconductor substrate for most modern integrated circuits?",
+    "options": [
+      "Copper",
+      "Silicon",
+      "Gallium",
+      "Germanium"
+    ],
+    "answer": "Silicon"
+  },
+  {
+    "id": 68,
+    "branch": "Electronics",
+    "question": "What process introduces specific impurities into an intrinsic semiconductor crystal lattice to modify its electrical conductivity?",
+    "options": [
+      "Encapsulation",
+      "Doping",
+      "Etching",
+      "Annealing"
+    ],
+    "answer": "Doping"
+  },
+  {
+    "id": 69,
+    "branch": "Electronics",
+    "question": "A P-type semiconductor material is created by doping an intrinsic crystal lattice with which type of valence impurity elements?",
+    "options": [
+      "Trivalent impurities",
+      "Pentavalent impurities",
+      "Noble gases",
+      "Hexavalent metals"
+    ],
+    "answer": "Trivalent impurities"
+  },
+  {
+    "id": 70,
+    "branch": "Electronics",
+    "question": "What region forms at the interface of a P-type and N-type semiconductor junction that contains no mobile charge carriers?",
+    "options": [
+      "Saturation layer",
+      "Depletion region",
+      "Conduction band",
+      "Breakdown layer"
+    ],
+    "answer": "Depletion region"
+  },
+  {
+    "id": 71,
+    "branch": "Electronics",
+    "question": "What is the primary operating mechanism of an electromechanical Relay?",
+    "options": [
+      "It uses light to shift resistance parameters.",
+      "It uses an electromagnetic coil to mechanically actuate a switch contact.",
+      "It changes internal capacitance under load.",
+      "It acts as a static step-up logic transformer."
+    ],
+    "answer": "It uses an electromagnetic coil to mechanically actuate a switch contact."
+  },
+  {
+    "id": 72,
+    "branch": "Electronics",
+    "question": "In relay terminal terminology, what does the abbreviation \"COM\" stand for?",
+    "options": [
+      "Communication Port",
+      "Common Terminal",
+      "Component Ground",
+      "Comparator Input"
+    ],
+    "answer": "Common Terminal"
+  },
+  {
+    "id": 73,
+    "branch": "Electronics",
+    "question": "Which relay contact terminal remains physically connected to the COM pin when the internal coil is completely unpowered?",
+    "options": [
+      "NO (Normally Open)",
+      "NC (Normally Closed)",
+      "VCC",
+      "GND"
+    ],
+    "answer": "NC (Normally Closed)"
+  },
+  {
+    "id": 74,
+    "branch": "Electronics",
+    "question": "When an Arduino safe output toggles a relay coil to change states, what happens to the NO (Normally Open) contact?",
+    "options": [
+      "It opens up immediately, breaking the circuit.",
+      "It snaps closed, completing the high-power circuit path.",
+      "It shorts directly to the microcontroller ground.",
+      "It remains floating."
+    ],
+    "answer": "It snaps closed, completing the high-power circuit path."
+  },
+  {
+    "id": 75,
+    "branch": "Electronics",
+    "question": "Why is a flyback diode typically installed in parallel across an inductive relay coil?",
+    "options": [
+      "To increase the activation speed of the contacts.",
+      "To protect sensitive driving transistors from high reverse voltage spikes during turn-off.",
+      "To limit the forward current flowing through the coil.",
+      "To convert AC power to DC."
+    ],
+    "answer": "To protect sensitive driving transistors from high reverse voltage spikes during turn-off."
+  },
+  {
+    "id": 76,
+    "branch": "Electronics",
+    "question": "Which testing instrument is best suited to verify specific DC voltage levels, terminal continuity, and exact resistor values in a physical prototype layout?",
+    "options": [
+      "Oscilloscope",
+      "Digital Multimeter (DMM)",
+      "Function Generator",
+      "Logic Analyzer"
+    ],
+    "answer": "Digital Multimeter (DMM)"
+  },
+  {
+    "id": 77,
+    "branch": "Electronics",
+    "question": "When using a multimeter to verify a continuous electrical connection along a copper trace or wire path, which mode setting should be selected?",
+    "options": [
+      "AC Voltage mode",
+      "Capacitance mode",
+      "Continuity/Diode test mode",
+      "Microampere current mode"
+    ],
+    "answer": "Continuity/Diode test mode"
+  },
+  {
+    "id": 78,
+    "branch": "Electronics",
+    "question": "What test equipment visually charts electrical signal waveforms across a time-domain axis grid?",
+    "options": [
+      "Frequency Counter",
+      "Oscilloscope",
+      "Wattmeter",
+      "Decade Resistance Box"
+    ],
+    "answer": "Oscilloscope"
+  },
+  {
+    "id": 79,
+    "branch": "Electronics",
+    "question": "If an active circuit has an unintended direct connection between a positive supply line and ground, what condition is this called?",
+    "options": [
+      "Open circuit condition",
+      "Short circuit condition",
+      "Floating node condition",
+      "High impedance saturation"
+    ],
+    "answer": "Short circuit condition"
+  },
+  {
+    "id": 80,
+    "branch": "Electronics",
+    "question": "What is the fundamental purpose of adding decoupling capacitors in parallel near integrated circuit power pins?",
+    "options": [
+      "To completely block DC operating voltage.",
+      "To filter high-frequency noise and stabilize local power delivery.",
+      "To increase the total circuit resistance.",
+      "To handle high-voltage lightning surges."
+    ],
+    "answer": "To filter high-frequency noise and stabilize local power delivery."
+  },
+  {
+    "id": 81,
+    "branch": "Electronics",
+    "question": "In your battery comparison logs, what parameter is measured in milliampere-hours (mAh) to define a smart device's energy storage envelope?",
+    "options": [
+      "Short-circuit capability",
+      "Battery Capacity",
+      "Nominal charging current",
+      "Internal resistance coefficient"
+    ],
+    "answer": "Battery Capacity"
+  },
+  {
+    "id": 82,
+    "branch": "Electronics",
+    "question": "According to your notes, a standard OnePlus battery possesses what capacity benchmark?",
+    "options": [
+      "4230 mAh",
+      "5000 mAh",
+      "3000 mAh",
+      "6000 mAh"
+    ],
+    "answer": "5000 mAh"
+  },
+  {
+    "id": 83,
+    "branch": "Electronics",
+    "question": "An Oppo mobile battery configuration listed under your specifications has what exact capacity?",
+    "options": [
+      "4230 mAh",
+      "5000 mAh",
+      "1500 mAh",
+      "1000 mAh"
+    ],
+    "answer": "4230 mAh"
+  },
+  {
+    "id": 84,
+    "branch": "Electronics",
+    "question": "What happens when a high-power digital microprocessor is operated for long periods under intense workloads without an adequate cooling channel (Brain + Heat phenomenon)?",
+    "options": [
+      "Increased efficiency and higher speeds",
+      "Structural thermal throttling, stress (\"frustrated\"), and potential breakdown",
+      "Drop in internal resistance to zero",
+      "Instant conversion from DC to AC voltage"
+    ],
+    "answer": "Structural thermal throttling, stress (\"frustrated\"), and potential breakdown"
+  },
+  {
+    "id": 85,
+    "branch": "Electronics",
+    "question": "In alternative text expressions logged in your notebook, what descriptive vernacular is misspelled alongside \"frustrated\" when defining system thermal overload stress?",
+    "options": [
+      "Fusted / Frusted",
+      "Busted",
+      "Fried",
+      "Melted"
+    ],
+    "answer": "Fusted / Frusted"
+  },
+  {
+    "id": 86,
+    "branch": "Electronics",
+    "question": "What is the primary purpose of a Full-Wave Rectifier circuit built out of diodes?",
+    "options": [
+      "To step down DC voltage levels",
+      "To convert Alternating Current (AC) into Direct Current (DC)",
+      "To act as a logic latching circuit",
+      "To amplify weak radio signals"
+    ],
+    "answer": "To convert Alternating Current (AC) into Direct Current (DC)"
+  },
+  {
+    "id": 87,
+    "branch": "Electronics",
+    "question": "Which component value acts as the foundational fixed reference resistor (R1) across your LM317 adjustment circuits?",
+    "options": [
+      "10 Ohm",
+      "220 Ohm",
+      "1 kOhm",
+      "10 kOhm"
+    ],
+    "answer": "220 Ohm"
+  },
+  {
+    "id": 88,
+    "branch": "Electronics",
+    "question": "Which of the following defines a 4-band resistor with a 10% tolerance color indicator on its final band?",
+    "options": [
+      "Gold",
+      "Silver",
+      "Bronze",
+      "No Band"
+    ],
+    "answer": "Silver"
+  },
+  {
+    "id": 89,
+    "branch": "Electronics",
+    "question": "If an electrical system uses multiple independent power rails, what layout standard is vital to maintain error-free signaling across components?",
+    "options": [
+      "Completely separating all return links",
+      "Establishing a Common Ground (Common GND) connection across all power domains",
+      "High resistance isolators in series",
+      "Running every device off isolated dry cells"
+    ],
+    "answer": "Establishing a Common Ground (Common GND) connection across all power domains"
+  },
+  {
+    "id": 90,
+    "branch": "Electronics",
+    "question": "What logic state does a completely grounded digital input represent in 5V TTL systems?",
+    "options": [
+      "Logic High",
+      "Logic Low (0)",
+      "High Impedance (Floating)",
+      "Indeterminate State"
+    ],
+    "answer": "Logic Low (0)"
+  },
+  {
+    "id": 91,
+    "branch": "Electronics",
+    "question": "What operational function describes a basic 'Buffer' gate component?",
+    "options": [
+      "Inverts any digital signal passing through it",
+      "Passes the input signal to the output unchanged, often providing current amplification",
+      "Multiplies two independent binary digits",
+      "Automatically shuts down the circuit upon thermal peak"
+    ],
+    "answer": "Passes the input signal to the output unchanged, often providing current amplification"
+  },
+  {
+    "id": 92,
+    "branch": "Electronics",
+    "question": "What structural element inside a mechanical momentary button forces the electrical contacts apart once physical pressure is released?",
+    "options": [
+      "An inductive core",
+      "An internal spring return mechanism",
+      "A chemical dielectric layer",
+      "A solid copper latch bar"
+    ],
+    "answer": "An internal spring return mechanism"
+  },
+  {
+    "id": 93,
+    "branch": "Electronics",
+    "question": "For a logic system to trigger a critical response loop only when an environment is safe AND verified by a human input, what gate configuration should process the two validation inputs?",
+    "options": [
+      "NOT Gate",
+      "OR Gate",
+      "AND Gate",
+      "NOR Gate"
+    ],
+    "answer": "AND Gate"
+  },
+  {
+    "id": 94,
+    "branch": "Electronics",
+    "question": "If an LED is connected directly across a 12V automotive battery without any series current-limiting resistor, what is the immediate expected physical result?",
+    "options": [
+      "The LED will shine with maximum lifetime efficiency.",
+      "Excessive forward current will instantly burn out the internal LED semiconductor die.",
+      "The battery will stop discharging.",
+      "The LED forward voltage drop will climb to 12V safely."
+    ],
+    "answer": "Excessive forward current will instantly burn out the internal LED semiconductor die."
+  },
+  {
+    "id": 95,
+    "branch": "Electronics",
+    "question": "What structural notation is written prominently at the top of your voltage regulator study section to indicate a transition from AC to DC power streams?",
+    "options": [
+      "Boost Convert",
+      "(Rectifier) AC -> DC",
+      "Constant Current Sink",
+      "Decoupling Bridge"
+    ],
+    "answer": "(Rectifier) AC -> DC"
+  },
+  {
+    "id": 96,
+    "branch": "Electronics",
+    "question": "If you require a stable positive +12V rail output from an AC rectifier transformer filter stage, which 3-terminal linear regulator series IC should be used?",
+    "options": [
+      "7912",
+      "7812",
+      "LM317",
+      "7805"
+    ],
+    "answer": "7812"
+  },
+  {
+    "id": 97,
+    "branch": "Electronics",
+    "question": "If you require a stable negative -12V rail output from a dual-rail power supply setup, which linear regulator model should be chosen?",
+    "options": [
+      "7812",
+      "7912",
+      "7805",
+      "LM317"
+    ],
+    "answer": "7912"
+  },
+  {
+    "id": 98,
+    "branch": "Electronics",
+    "question": "To scale up a low input DC rail from an older 5V adapter up to a 12V operational module line, what power circuit topology is best suited?",
+    "options": [
+      "Linear Buck Regulator",
+      "DC-to-DC Boost Regulator",
+      "Full-Wave Bridge Rectifier",
+      "Decoupling Resistor Matrix"
+    ],
+    "answer": "DC-to-DC Boost Regulator"
+  },
+  {
+    "id": 99,
+    "branch": "Electronics",
+    "question": "In the resistance calculation formula V = I * R, if the voltage drop stays completely stable and the circuit path resistance decreases, what must happen to the passing current?",
+    "options": [
+      "The current decreases proportionally.",
+      "The current increases proportionally.",
+      "The current drops directly to zero.",
+      "The current switches direction."
+    ],
+    "answer": "The current increases proportionally."
+  },
+  {
+    "id": 100,
+    "branch": "Electronics",
+    "question": "In automated system planning or software modeling tools like Proteus, what does the component label \"V.R\" or \"Vtg\" directly stand for?",
+    "options": [
+      "Variable Reluctance / Vector",
+      "Voltage Regulator / Voltage",
+      "Virtual Resistance / Vector",
+      "Velocity Rate / Variation"
+    ],
+    "answer": "Voltage Regulator / Voltage"
   }
 ]
