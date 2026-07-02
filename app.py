@@ -127,9 +127,14 @@ def submit():
     
     for q in exam_questions:
         ans = request.form.get(f"question_{q['id']}")
-        is_correct = (ans == q['answer'])
-        if is_correct:
-            score += 1
+        is_correct = False
+        
+        if ans:
+            is_correct = (ans == q['answer'])
+            if is_correct:
+                score += 1
+            else:
+                score -= 2
             
         breakdown.append({
             'question': q['question'],
