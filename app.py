@@ -16,7 +16,7 @@ with open('questions.json', 'r') as f:
     QUESTIONS = json.load(f)
 
 # Helper for Leaderboard
-LEADERBOARD_FILE = os.path.join(tempfile.gettempdir(), 'leaderboard.json')
+LEADERBOARD_FILE = 'leaderboard.json'
 def get_leaderboard():
     if not os.path.exists(LEADERBOARD_FILE):
         return []
@@ -28,14 +28,28 @@ def get_leaderboard():
 
 def save_to_leaderboard(name, branch, score_num, total_num):
     board = get_leaderboard()
-    board.append({
-        'name': name,
-        'branch': branch,
-        'score': score_num,
-        'total': total_num
-    })
+    
+    # Check if student already exists in the leaderboard
+    existing_student = next((item for item in board if item['name'] == name), None)
+    
+    if existing_student:
+        # Update score only if the new score is higher
+        if score_num > existing_student['score']:
+            existing_student['score'] = score_num
+            existing_student['total'] = total_num
+            existing_student['branch'] = branch
+    else:
+        # Add new student
+        board.append({
+            'name': name,
+            'branch': branch,
+            'score': score_num,
+            'total': total_num
+        })
+        
     # Sort descending by score
     board.sort(key=lambda x: x['score'], reverse=True)
+    
     with open(LEADERBOARD_FILE, 'w') as f:
         json.dump(board, f, indent=4)
     return board
