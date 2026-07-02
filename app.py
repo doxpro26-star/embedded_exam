@@ -123,10 +123,20 @@ def submit():
     score = 0
     total = len(exam_questions)
     
+    breakdown = []
+    
     for q in exam_questions:
         ans = request.form.get(f"question_{q['id']}")
-        if ans == q['answer']:
+        is_correct = (ans == q['answer'])
+        if is_correct:
             score += 1
+            
+        breakdown.append({
+            'question': q['question'],
+            'user_answer': ans,
+            'correct_answer': q['answer'],
+            'is_correct': is_correct
+        })
             
     # Save to Google Sheets
     save_to_google_sheet(
@@ -144,7 +154,8 @@ def submit():
         'name': student_name,
         'score': score,
         'total': total,
-        'warnings': session.get('warnings')
+        'warnings': session.get('warnings'),
+        'breakdown': breakdown
     }
     
     # Save to local leaderboard and get top 5

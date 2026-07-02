@@ -136,6 +136,25 @@
             background: #FFF9E6 !important; border-color: var(--yellow);
             box-shadow: 0 0 0 2px var(--yellow);
         }
+
+        /* Breakdown */
+        .breakdown-card { text-align: left; padding: 2rem; animation-delay: 0.2s; }
+        .breakdown-list { display: flex; flex-direction: column; gap: 1.5rem; }
+        .breakdown-item {
+            background: #F9FAFB; border: 1px solid var(--gray-border); border-radius: 12px;
+            padding: 1.5rem; transition: all 0.3s;
+        }
+        .breakdown-item.correct { border-left: 5px solid #10B981; }
+        .breakdown-item.incorrect { border-left: 5px solid #EF4444; }
+        .breakdown-question {
+            font-weight: 600; font-size: 1.1rem; color: var(--gray-dark); margin-bottom: 1rem; line-height: 1.5;
+        }
+        .breakdown-answers { display: flex; flex-direction: column; gap: 0.5rem; }
+        .answer-row { display: flex; gap: 0.5rem; font-size: 0.95rem; }
+        .answer-label { font-weight: 600; color: #6B7280; width: 120px; }
+        .answer-value { font-weight: 700; color: var(--gray-dark); }
+        .text-green { color: #10B981 !important; }
+        .text-red { color: #EF4444 !important; }
     </style>
 </head>
 <body>
@@ -163,6 +182,34 @@
             <a href="/" class="btn-outline">Start New Session</a>
         </div>
         
+        <!-- Detailed Breakdown Card -->
+        {% if result.breakdown %}
+        <div class="card breakdown-card">
+            <h3 class="leaderboard-title">Detailed Breakdown</h3>
+            <div class="breakdown-list">
+                {% for item in result.breakdown %}
+                <div class="breakdown-item {% if item.is_correct %}correct{% else %}incorrect{% endif %}">
+                    <div class="breakdown-question">{{ loop.index }}. {{ item.question }}</div>
+                    <div class="breakdown-answers">
+                        <div class="answer-row">
+                            <span class="answer-label">Your Answer:</span>
+                            <span class="answer-value {% if item.is_correct %}text-green{% else %}text-red{% endif %}">
+                                {{ item.user_answer if item.user_answer else 'Not Answered' }}
+                            </span>
+                        </div>
+                        {% if not item.is_correct %}
+                        <div class="answer-row">
+                            <span class="answer-label">Correct Answer:</span>
+                            <span class="answer-value text-green">{{ item.correct_answer }}</span>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
         <!-- Leaderboard Card -->
         {% if leaderboard and leaderboard|length > 0 %}
         <div class="card leaderboard-card">
