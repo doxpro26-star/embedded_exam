@@ -181,450 +181,306 @@
   },
   {
     "id": 16,
-    "branch": "Electronics",
-    "question": "Two 3.7V, 2Ah batteries are connected in series. What is the output?",
+    "branch": "Arduino",
+    "question": "What is the Arduino IDE primarily used for?",
     "options": [
-      "3.7V, 4Ah",
-      "7.4V, 2Ah",
-      "7.4V, 4Ah",
-      "3.7V, 2Ah"
+      "Writing and uploading code to microcontrollers",
+      "Creating web applications",
+      "Designing circuits",
+      "Building operating systems"
     ],
-    "answer": "7.4V, 2Ah"
+    "answer": "Writing and uploading code to microcontrollers"
   },
   {
     "id": 17,
-    "branch": "Electronics",
-    "question": "Two 3.7V, 2Ah batteries are connected in parallel. What is the output?",
+    "branch": "Arduino",
+    "question": "In Arduino, which function runs once when the board starts?",
     "options": [
-      "7.4V, 2Ah",
-      "3.7V, 4Ah",
-      "7.4V, 4Ah",
-      "3.7V, 2Ah"
+      "loop()",
+      "setup()",
+      "init()",
+      "start()"
     ],
-    "answer": "3.7V, 4Ah"
+    "answer": "setup()"
   },
   {
     "id": 18,
-    "branch": "Electronics",
-    "question": "Three 1.5V, 2000mAh cells in series produce:",
+    "branch": "Arduino",
+    "question": "In Arduino, which function runs repeatedly?",
     "options": [
-      "4.5V, 2000mAh",
-      "1.5V, 6000mAh",
-      "4.5V, 6000mAh",
-      "3V, 2000mAh"
+      "setup()",
+      "loop()",
+      "repeat()",
+      "execute()"
     ],
-    "answer": "4.5V, 2000mAh"
+    "answer": "loop()"
   },
   {
     "id": 19,
-    "branch": "Electronics",
-    "question": "Three 1.5V, 2000mAh cells in parallel produce:",
+    "branch": "Arduino",
+    "question": "What does pinMode(13, OUTPUT) do?",
     "options": [
-      "1.5V, 6000mAh",
-      "4.5V, 2000mAh",
-      "3V, 4000mAh",
-      "4.5V, 6000mAh"
+      "Sets pin 13 as input",
+      "Sets pin 13 as output",
+      "Reads pin 13",
+      "Writes to pin 13"
     ],
-    "answer": "1.5V, 6000mAh"
+    "answer": "Sets pin 13 as output"
   },
   {
     "id": 20,
-    "branch": "Electronics",
-    "question": "Four 12V, 5Ah batteries connected in series give:",
+    "branch": "Arduino",
+    "question": "To blink an LED on pin 13, which function writes HIGH to the pin?",
     "options": [
-      "48V, 5Ah",
-      "12V, 20Ah",
-      "48V, 20Ah",
-      "24V, 10Ah"
+      "digitalWrite(13, LOW)",
+      "digitalWrite(13, HIGH)",
+      "digitalRead(13)",
+      "pinMode(13, OUTPUT)"
     ],
-    "answer": "48V, 5Ah"
+    "answer": "digitalWrite(13, HIGH)"
   },
   {
     "id": 21,
-    "branch": "Electronics",
-    "question": "Four 12V, 5Ah batteries connected in parallel give:",
+    "branch": "Arduino",
+    "question": "What does delay(1000) do in an LED blink sketch?",
     "options": [
-      "48V, 5Ah",
-      "12V, 20Ah",
-      "24V, 10Ah",
-      "48V, 20Ah"
+      "Pauses for 100 milliseconds",
+      "Pauses for 1000 milliseconds",
+      "Pauses for 1 second",
+      "Both B and C"
     ],
-    "answer": "12V, 20Ah"
+    "answer": "Both B and C"
   },
   {
     "id": 22,
-    "branch": "Electronics",
-    "question": "Two 6V, 4Ah batteries in series produce:",
+    "branch": "Arduino",
+    "question": "Which is the correct LED blink code snippet?",
     "options": [
-      "12V, 4Ah",
-      "6V, 8Ah",
-      "12V, 8Ah",
-      "24V, 4Ah"
+      "digitalWrite(13, HIGH); delay(1000); digitalWrite(13, LOW); delay(1000);",
+      "digitalWrite(13, LOW); delay(500);",
+      "pinMode(13, INPUT);",
+      "digitalRead(13);"
     ],
-    "answer": "12V, 4Ah"
+    "answer": "digitalWrite(13, HIGH); delay(1000); digitalWrite(13, LOW); delay(1000);"
   },
   {
     "id": 23,
-    "branch": "Electronics",
-    "question": "Two 6V, 4Ah batteries in parallel produce:",
+    "branch": "Embedded C",
+    "question": "In embedded C, what does GPIO stand for?",
     "options": [
-      "12V, 4Ah",
-      "6V, 8Ah",
-      "12V, 8Ah",
-      "6V, 4Ah"
+      "General Purpose Input Output",
+      "General Protocol Interface Output",
+      "Generic Port Input Output",
+      "Global Programmable Interface Output"
     ],
-    "answer": "6V, 8Ah"
+    "answer": "General Purpose Input Output"
   },
   {
     "id": 24,
-    "branch": "Electronics",
-    "question": "Five 3V, 1Ah batteries in series produce:",
+    "branch": "Arduino",
+    "question": "What is the purpose of a resistor in series with an LED?",
     "options": [
-      "15V, 1Ah",
-      "3V, 5Ah",
-      "15V, 5Ah",
-      "6V, 5Ah"
+      "To increase brightness",
+      "To limit current and protect the LED",
+      "To increase voltage",
+      "To reduce power consumption"
     ],
-    "answer": "15V, 1Ah"
+    "answer": "To limit current and protect the LED"
   },
   {
     "id": 25,
     "branch": "Electronics",
-    "question": "Five 3V, 1Ah batteries in parallel produce:",
+    "question": "A typical LED forward voltage is approximately:",
     "options": [
-      "15V, 1Ah",
-      "3V, 5Ah",
-      "15V, 5Ah",
-      "6V, 1Ah"
+      "0.5V",
+      "2V",
+      "5V",
+      "12V"
     ],
-    "answer": "3V, 5Ah"
+    "answer": "2V"
   },
   {
     "id": 26,
-    "branch": "Electronics",
-    "question": "To increase voltage, batteries should be connected:",
+    "branch": "Arduino",
+    "question": "What is the syntax to turn ON an LED on pin 13 in Arduino?",
     "options": [
-      "Parallel",
-      "Series",
-      "Mixed only",
-      "None"
+      "digitalWrite(13, ON)",
+      "digitalWrite(13, HIGH)",
+      "pinWrite(13, 1)",
+      "digitalWrite(ON, 13)"
     ],
-    "answer": "Series"
+    "answer": "digitalWrite(13, HIGH)"
   },
   {
     "id": 27,
-    "branch": "Electronics",
-    "question": "To increase capacity (Ah), batteries should be connected:",
+    "branch": "Arduino",
+    "question": "What is the syntax to turn OFF an LED on pin 13 in Arduino?",
     "options": [
-      "Series",
-      "Parallel",
-      "Star",
-      "Delta"
+      "digitalWrite(13, OFF)",
+      "digitalWrite(13, LOW)",
+      "pinWrite(13, 0)",
+      "digitalWrite(OFF, 13)"
     ],
-    "answer": "Parallel"
+    "answer": "digitalWrite(13, LOW)"
   },
   {
     "id": 28,
-    "branch": "Electronics",
-    "question": "Which quantity remains constant in a series battery connection?",
+    "branch": "Arduino",
+    "question": "In the LED blink code, what does 'void setup()' contain?",
     "options": [
-      "Voltage",
-      "Capacity (Ah)",
-      "Power",
-      "Resistance"
+      "LED blinking logic",
+      "Initialization code that runs once",
+      "Delay values",
+      "Loop conditions"
     ],
-    "answer": "Capacity (Ah)"
+    "answer": "Initialization code that runs once"
   },
   {
     "id": 29,
-    "branch": "Electronics",
-    "question": "Which quantity remains constant in a parallel battery connection?",
+    "branch": "Arduino",
+    "question": "The basic LED blink circuit requires which components?",
     "options": [
-      "Voltage",
-      "Capacity",
-      "Current",
-      "Power"
+      "Arduino, LED, Resistor, Power supply",
+      "Arduino only",
+      "LED and Resistor only",
+      "Arduino and LED only"
     ],
-    "answer": "Voltage"
+    "answer": "Arduino, LED, Resistor, Power supply"
   },
   {
     "id": 30,
-    "branch": "Electronics",
-    "question": "Two 9V, 500mAh batteries in parallel produce:",
+    "branch": "Arduino",
+    "question": "Which function reads the state of a digital pin in Arduino?",
     "options": [
-      "18V, 500mAh",
-      "9V, 1000mAh",
-      "18V, 1000mAh",
-      "9V, 500mAh"
+      "digitalWrite()",
+      "digitalRead()",
+      "pinMode()",
+      "delay()"
     ],
-    "answer": "9V, 1000mAh"
+    "answer": "digitalRead()"
   },
   {
     "id": 31,
-    "branch": "Electronics",
-    "question": "Three 24V, 10Ah batteries in series produce:",
+    "branch": "Embedded C",
+    "question": "In embedded C, a typical GPIO initialization sets which parameters?",
     "options": [
-      "72V, 10Ah",
-      "24V, 30Ah",
-      "72V, 30Ah",
-      "48V, 20Ah"
+      "Pin number only",
+      "Pin direction and mode",
+      "Power consumption",
+      "Signal frequency"
     ],
-    "answer": "72V, 10Ah"
+    "answer": "Pin direction and mode"
   },
   {
     "id": 32,
-    "branch": "Electronics",
-    "question": "Three 24V, 10Ah batteries in parallel produce:",
+    "branch": "Embedded C",
+    "question": "In embedded C, what does a GPIO register contain?",
     "options": [
-      "72V, 10Ah",
-      "24V, 30Ah",
-      "72V, 30Ah",
-      "48V, 20Ah"
+      "Memory addresses",
+      "Bit values representing pin states",
+      "Clock frequencies",
+      "Power settings"
     ],
-    "answer": "24V, 30Ah"
+    "answer": "Bit values representing pin states"
   },
   {
     "id": 33,
-    "branch": "Electronics",
-    "question": "Which battery combination gives 14.8V, 5Ah?",
+    "branch": "Embedded C",
+    "question": "What is a microcontroller?",
     "options": [
-      "Four 3.7V, 5Ah batteries in series",
-      "Four 3.7V, 5Ah batteries in parallel",
-      "Two 7.4V, 10Ah batteries in parallel",
-      "Two 7.4V, 5Ah batteries in parallel"
+      "A type of processor",
+      "A complete computer on a single chip with CPU, memory, and I/O",
+      "A software library",
+      "A type of sensor"
     ],
-    "answer": "Four 3.7V, 5Ah batteries in series"
+    "answer": "A complete computer on a single chip with CPU, memory, and I/O"
   },
   {
     "id": 34,
-    "branch": "Electronics",
-    "question": "Which battery combination gives 12V, 30Ah?",
+    "branch": "Embedded C",
+    "question": "Which header file is typically used for GPIO control in embedded C?",
     "options": [
-      "Three 12V, 10Ah batteries in parallel",
-      "Three 12V, 10Ah batteries in series",
-      "Six 6V, 10Ah batteries in series",
-      "Two 12V, 15Ah batteries in series"
+      "stdio.h",
+      "Device-specific headers (e.g., stm32f4xx.h)",
+      "math.h",
+      "string.h"
     ],
-    "answer": "Three 12V, 10Ah batteries in parallel"
+    "answer": "Device-specific headers (e.g., stm32f4xx.h)"
   },
   {
     "id": 35,
-    "branch": "Electronics",
-    "question": "Which statement is correct about series and parallel battery connections?",
+    "branch": "Arduino",
+    "question": "What does the setup() function initialization for LED blink typically include?",
     "options": [
-      "Series increases voltage only.",
-      "Parallel increases voltage only.",
-      "Series increases Ah only.",
-      "Parallel decreases capacity."
+      "digitalWrite() calls",
+      "delay() calls",
+      "pinMode(pin, OUTPUT) for LED pin",
+      "digitalRead() calls"
     ],
-    "answer": "Series increases voltage only."
+    "answer": "pinMode(pin, OUTPUT) for LED pin"
   },
   {
     "id": 36,
-    "branch": "Electronics",
-    "question": "Which two resistors in series make 300 Ω?",
+    "branch": "Arduino",
+    "question": "In a complete LED blink code, the loop() function contains:",
     "options": [
-      "100 Ω + 100 Ω",
-      "100 Ω + 200 Ω",
-      "150 Ω || 150 Ω",
-      "330 Ω + 100 Ω"
+      "pinMode() declarations",
+      "digitalWrite() and delay() calls",
+      "Serial configuration",
+      "Hardware setup"
     ],
-    "answer": "100 Ω + 200 Ω"
+    "answer": "digitalWrite() and delay() calls"
   },
   {
     "id": 37,
-    "branch": "Electronics",
-    "question": "Which two resistors in parallel make 50 Ω?",
+    "branch": "Embedded C",
+    "question": "What does PORTB = 0xFF do in embedded C?",
     "options": [
-      "50 Ω || 50 Ω",
-      "100 Ω + 100 Ω",
-      "25 Ω + 25 Ω",
-      "100 Ω || 50 Ω"
+      "Sets all pins of PORTB to LOW",
+      "Sets all pins of PORTB to HIGH",
+      "Clears PORTB",
+      "Reads PORTB state"
     ],
-    "answer": "50 Ω || 50 Ω"
+    "answer": "Sets all pins of PORTB to HIGH"
   },
   {
     "id": 38,
-    "branch": "Electronics",
-    "question": "Two 1 kΩ resistors in parallel give:",
+    "branch": "Embedded C",
+    "question": "In embedded C, what is DDRB used for?",
     "options": [
-      "2 kΩ",
-      "500 Ω",
-      "1 kΩ",
-      "250 Ω"
+      "Setting output current",
+      "Setting pin direction (Data Direction Register)",
+      "Reading analog values",
+      "Configuring timers"
     ],
-    "answer": "500 Ω"
+    "answer": "Setting pin direction (Data Direction Register)"
   },
   {
     "id": 39,
-    "branch": "Electronics",
-    "question": "Which combination gives approximately 1 kΩ?",
+    "branch": "Arduino",
+    "question": "What is the typical LED blink frequency if delay is 1000ms?",
     "options": [
-      "470 Ω + 330 Ω",
-      "680 Ω + 330 Ω ≈ 1.01 kΩ",
-      "220 Ω + 220 Ω",
-      "470 Ω || 470 Ω"
+      "1 Hz",
+      "0.5 Hz",
+      "2 Hz",
+      "10 Hz"
     ],
-    "answer": "680 Ω + 330 Ω ≈ 1.01 kΩ"
+    "answer": "1 Hz"
   },
   {
     "id": 40,
-    "branch": "Electronics",
-    "question": "Which combination gives 150 Ω?",
+    "branch": "Arduino",
+    "question": "To create a 2-second LED ON time, the delay should be:",
     "options": [
-      "100 Ω + 50 Ω",
-      "100 Ω || 50 Ω",
-      "75 Ω + 25 Ω",
-      "220 Ω || 220 Ω"
+      "2000",
+      "200",
+      "20",
+      "0.2"
     ],
-    "answer": "100 Ω + 50 Ω"
+    "answer": "2000"
   },
   {
     "id": 41,
-    "branch": "Electronics",
-    "question": "Three 100 Ω resistors in series equal:",
-    "options": [
-      "100 Ω",
-      "200 Ω",
-      "300 Ω",
-      "400 Ω"
-    ],
-    "answer": "300 Ω"
-  },
-  {
-    "id": 42,
-    "branch": "Electronics",
-    "question": "Three 300 Ω resistors in parallel equal:",
-    "options": [
-      "900 Ω",
-      "300 Ω",
-      "100 Ω",
-      "150 Ω"
-    ],
-    "answer": "100 Ω"
-  },
-  {
-    "id": 43,
-    "branch": "Electronics",
-    "question": "Which resistor value is closest to 470 Ω from standard values?",
-    "options": [
-      "330 Ω",
-      "470 Ω",
-      "560 Ω",
-      "680 Ω"
-    ],
-    "answer": "470 Ω"
-  },
-  {
-    "id": 44,
-    "branch": "Electronics",
-    "question": "To increase total resistance, resistors are connected:",
-    "options": [
-      "In parallel",
-      "In series",
-      "Mixed only",
-      "None"
-    ],
-    "answer": "In series"
-  },
-  {
-    "id": 45,
-    "branch": "Electronics",
-    "question": "To decrease total resistance, resistors are connected:",
-    "options": [
-      "In series",
-      "In parallel",
-      "Open circuit",
-      "None"
-    ],
-    "answer": "In parallel"
-  },
-  {
-    "id": 46,
-    "branch": "Electronics",
-    "question": "Two 10 kΩ resistors in parallel give:",
-    "options": [
-      "20 kΩ",
-      "10 kΩ",
-      "5 kΩ",
-      "2.5 kΩ"
-    ],
-    "answer": "5 kΩ"
-  },
-  {
-    "id": 47,
-    "branch": "Electronics",
-    "question": "What is the total resistance of 1 kΩ + 2.2 kΩ + 4.7 kΩ in series?",
-    "options": [
-      "7.9 kΩ",
-      "6.9 kΩ",
-      "8.2 kΩ",
-      "5.7 kΩ"
-    ],
-    "answer": "7.9 kΩ"
-  },
-  {
-    "id": 48,
-    "branch": "Electronics",
-    "question": "Which combination makes 660 Ω?",
-    "options": [
-      "330 Ω + 330 Ω",
-      "220 Ω + 220 Ω",
-      "470 Ω + 100 Ω",
-      "680 Ω || 680 Ω"
-    ],
-    "answer": "330 Ω + 330 Ω"
-  },
-  {
-    "id": 49,
-    "branch": "Electronics",
-    "question": "Two 470 Ω resistors in parallel produce approximately:",
-    "options": [
-      "940 Ω",
-      "470 Ω",
-      "235 Ω",
-      "117 Ω"
-    ],
-    "answer": "235 Ω"
-  },
-  {
-    "id": 50,
-    "branch": "Electronics",
-    "question": "Which combination gives 2 kΩ?",
-    "options": [
-      "1 kΩ + 1 kΩ",
-      "1 kΩ || 1 kΩ",
-      "470 Ω + 470 Ω",
-      "2 kΩ || 2 kΩ"
-    ],
-    "answer": "1 kΩ + 1 kΩ"
-  },
-  {
-    "id": 51,
-    "branch": "Electronics",
-    "question": "Four 100 Ω resistors in series give:",
-    "options": [
-      "100 Ω",
-      "200 Ω",
-      "300 Ω",
-      "400 Ω"
-    ],
-    "answer": "400 Ω"
-  },
-  {
-    "id": 52,
-    "branch": "Electronics",
-    "question": "Four 100 Ω resistors in parallel give:",
-    "options": [
-      "400 Ω",
-      "100 Ω",
-      "25 Ω",
-      "50 Ω"
-    ],
-    "answer": "25 Ω"
-  },
-  {
-    "id": 53,
     "branch": "Electronics",
     "question": "What is the output voltage of a 7805 voltage regulator?",
     "options": [
@@ -636,7 +492,7 @@
     "answer": "5 V"
   },
   {
-    "id": 54,
+    "id": 42,
     "branch": "Electronics",
     "question": "The 7805 is a:",
     "options": [
@@ -648,7 +504,7 @@
     "answer": "Voltage regulator"
   },
   {
-    "id": 55,
+    "id": 43,
     "branch": "Electronics",
     "question": "What is the minimum input voltage required for a 7805 to regulate properly?",
     "options": [
@@ -660,7 +516,7 @@
     "answer": "About 7 V"
   },
   {
-    "id": 56,
+    "id": 44,
     "branch": "Electronics",
     "question": "What is the maximum recommended input voltage for a standard 7805?",
     "options": [
@@ -672,31 +528,7 @@
     "answer": "35 V"
   },
   {
-    "id": 57,
-    "branch": "Electronics",
-    "question": "Which pin is the Input pin of a 7805 (front view)?",
-    "options": [
-      "Pin 1",
-      "Pin 2",
-      "Pin 3",
-      "Pin 4"
-    ],
-    "answer": "Pin 1"
-  },
-  {
-    "id": 58,
-    "branch": "Electronics",
-    "question": "Which pin is the Output pin of a 7805 (front view)?",
-    "options": [
-      "Pin 1",
-      "Pin 2",
-      "Pin 3",
-      "Pin 4"
-    ],
-    "answer": "Pin 3"
-  },
-  {
-    "id": 59,
+    "id": 45,
     "branch": "Electronics",
     "question": "Why are capacitors often connected to the input and output of a 7805?",
     "options": [
@@ -708,7 +540,7 @@
     "answer": "To reduce noise and improve stability"
   },
   {
-    "id": 60,
+    "id": 46,
     "branch": "Electronics",
     "question": "If a 12 V supply is connected to a 7805, the output will be:",
     "options": [
@@ -720,19 +552,7 @@
     "answer": "5 V"
   },
   {
-    "id": 61,
-    "branch": "Electronics",
-    "question": "A 7805 may require a heat sink when:",
-    "options": [
-      "The input voltage is much higher than 5 V and load current is high.",
-      "The input voltage is exactly 5 V.",
-      "No load is connected.",
-      "The output current is zero."
-    ],
-    "answer": "The input voltage is much higher than 5 V and load current is high."
-  },
-  {
-    "id": 62,
+    "id": 47,
     "branch": "Electronics",
     "question": "What type of IC is the LM358?",
     "options": [
@@ -744,7 +564,7 @@
     "answer": "Dual operational amplifier"
   },
   {
-    "id": 63,
+    "id": 48,
     "branch": "Electronics",
     "question": "How many operational amplifiers are inside one LM358 IC?",
     "options": [
@@ -756,7 +576,7 @@
     "answer": "2"
   },
   {
-    "id": 64,
+    "id": 49,
     "branch": "Electronics",
     "question": "What is the operating supply voltage range of the LM358 (single supply)?",
     "options": [
@@ -768,31 +588,7 @@
     "answer": "3V-32V"
   },
   {
-    "id": 65,
-    "branch": "Electronics",
-    "question": "Which pin provides the positive power supply (VCC) in an LM358?",
-    "options": [
-      "Pin 1",
-      "Pin 4",
-      "Pin 8",
-      "Pin 7"
-    ],
-    "answer": "Pin 8"
-  },
-  {
-    "id": 66,
-    "branch": "Electronics",
-    "question": "Which pin is connected to Ground (GND) in a single-supply LM358 circuit?",
-    "options": [
-      "Pin 1",
-      "Pin 4",
-      "Pin 8",
-      "Pin 5"
-    ],
-    "answer": "Pin 4"
-  },
-  {
-    "id": 67,
+    "id": 50,
     "branch": "Electronics",
     "question": "Which of the following is a common application of the LM358?",
     "options": [
@@ -804,31 +600,7 @@
     "answer": "All of the above"
   },
   {
-    "id": 68,
-    "branch": "Electronics",
-    "question": "The LM358 can operate from:",
-    "options": [
-      "Only dual supply (±12V)",
-      "Only 5V",
-      "Single or dual power supply",
-      "Only 230V AC"
-    ],
-    "answer": "Single or dual power supply"
-  },
-  {
-    "id": 69,
-    "branch": "Electronics",
-    "question": "Which pin is the output of Op-Amp 1 in an LM358?",
-    "options": [
-      "Pin 1",
-      "Pin 2",
-      "Pin 3",
-      "Pin 8"
-    ],
-    "answer": "Pin 1"
-  },
-  {
-    "id": 70,
+    "id": 51,
     "branch": "Electronics",
     "question": "What is the primary function of the 555 Timer IC?",
     "options": [
@@ -840,7 +612,7 @@
     "answer": "Timing and pulse generation"
   },
   {
-    "id": 71,
+    "id": 52,
     "branch": "Electronics",
     "question": "How many pins does a standard 555 Timer IC have?",
     "options": [
@@ -852,7 +624,7 @@
     "answer": "8"
   },
   {
-    "id": 72,
+    "id": 53,
     "branch": "Electronics",
     "question": "Which pin of the 555 Timer is connected to Ground (GND)?",
     "options": [
@@ -864,7 +636,7 @@
     "answer": "Pin 1"
   },
   {
-    "id": 73,
+    "id": 54,
     "branch": "Electronics",
     "question": "Which pin provides the power supply (VCC) to the 555 Timer?",
     "options": [
@@ -876,7 +648,7 @@
     "answer": "Pin 8"
   },
   {
-    "id": 74,
+    "id": 55,
     "branch": "Electronics",
     "question": "Which pin is the output pin of the 555 Timer?",
     "options": [
@@ -888,7 +660,7 @@
     "answer": "Pin 3"
   },
   {
-    "id": 75,
+    "id": 56,
     "branch": "Electronics",
     "question": "Which mode of the 555 Timer generates a single output pulse when triggered?",
     "options": [
@@ -900,7 +672,7 @@
     "answer": "Monostable Mode"
   },
   {
-    "id": 76,
+    "id": 57,
     "branch": "Electronics",
     "question": "Which mode of the 555 Timer generates a continuous square wave?",
     "options": [
@@ -912,39 +684,39 @@
     "answer": "Astable Mode"
   },
   {
-    "id": 77,
-    "branch": "Electronics",
-    "question": "Which pin is used to reset the 555 Timer?",
+    "id": 58,
+    "branch": "Arduino",
+    "question": "What is analogWrite() used for in Arduino?",
     "options": [
-      "Pin 2",
-      "Pin 4",
-      "Pin 5",
-      "Pin 6"
+      "Reading analog input",
+      "PWM output for LED brightness control",
+      "Configuring analog pins",
+      "Measuring voltage"
     ],
-    "answer": "Pin 4"
+    "answer": "PWM output for LED brightness control"
   },
   {
-    "id": 78,
-    "branch": "Electronics",
-    "question": "What is the purpose of Pin 5 (Control Voltage) in a 555 Timer?",
+    "id": 59,
+    "branch": "Arduino",
+    "question": "To make an LED gradually brighten using PWM, use:",
     "options": [
-      "Ground connection",
-      "Adjusts the internal threshold voltage",
-      "Output signal",
-      "Trigger input"
+      "digitalWrite(pin, HIGH)",
+      "analogWrite(pin, 255)",
+      "analogWrite(pin, variable) in loop",
+      "delay(1000)"
     ],
-    "answer": "Adjusts the internal threshold voltage"
+    "answer": "analogWrite(pin, variable) in loop"
   },
   {
-    "id": 79,
-    "branch": "Electronics",
-    "question": "In a 5-second LED ON timer circuit using a 555 Timer, the IC is usually operated in:",
+    "id": 60,
+    "branch": "Embedded C",
+    "question": "What is the maximum typical GPIO output current from a microcontroller?",
     "options": [
-      "Astable Mode",
-      "Monostable Mode",
-      "Bistable Mode",
-      "Comparator Mode"
+      "5 mA",
+      "20 mA",
+      "100 mA",
+      "500 mA"
     ],
-    "answer": "Monostable Mode"
+    "answer": "20 mA"
   }
 ]
